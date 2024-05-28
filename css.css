@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom,#21496b,#ffffff);
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+}
+ 
+header, nav,footer {
+    background: #ffffff ;
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+}
+ 
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    color: #21496b;
+}
+ 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+ 
+footer form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+footer form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #21496b;
+    border-radius: 5px;
+}
+ 
+
+.grid-button-container input {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+}
+ 
+footer form button:hover {
+    background-color: #17354d;
+}
+ 
+
+ 
